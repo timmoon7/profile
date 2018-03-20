@@ -149,10 +149,11 @@ nav div.header {
   display: flex;
 }
 
+
 #menu-toggle {
   display: none;
 }
-
+/* Menu icon for mobile view */
 #menu-toggle:checked + #menu {
   max-height: 200px;
 }
@@ -186,7 +187,7 @@ ul li:last-child a {
 }
 
 .contact-icons {
-  text-align: right;
+  text-align: center;
 }
 
 .contact-icons a {
