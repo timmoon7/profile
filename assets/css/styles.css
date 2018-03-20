@@ -12,7 +12,7 @@ body {
 .wrapper {
   width: 100%;
   max-width: 960px;
-  margin: 0 auto;
+  margin: 80px auto;
 }
 
 /* menu base styles */
@@ -21,20 +21,20 @@ nav {
   background: #2C3B48;
 }
 
-nav ul{
+ul{
   list-style-type: none;
   padding: 0;
 }
 
-nav a {
+li a {
   text-decoration: none;
   text-align: center;
   color: #EFEEEC;
   display: block;
-  padding: 10px;
+  padding: 7px;
 }
 
-nav a:hover {
+li a:hover {
   background-color: #616C75;
 }
 
@@ -48,7 +48,11 @@ nav a:hover {
   text-align: center;
 }
 
-
+ul.footer-menu {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
 /* social menu base styles */
 
 a.tw {
@@ -61,6 +65,22 @@ a.fb {
   background-size: 80%;
 }
 
+.menu-icon-wrapper {
+  cursor: pointer;
+  display: flex;
+  flex: auto;
+  justify-content: flex-end;
+}
+
+.logo-icon {
+  padding: 5px;
+}
+
+.menu-icon {
+  padding: 5px;
+  width: 35px;
+  height: 35px;
+}
 .social a {
   text-indent: -10000px;
   margin: 0 auto;
@@ -68,7 +88,6 @@ a.fb {
 
 .social {
   max-width: 80px;
-  margin: 0 auto; /* do at end */
 }
 
 /* grid vs flex base styles */
@@ -111,25 +130,82 @@ nav ul.social {
   display: flex;
 }
 
-@media screen and (min-width: 768px) {
-
-nav ul {
-  display: flex;
-}
-
-nav li {
-  flex: 1 1 0;
-}
-    
 nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
   display: flex;
-  justify-content: space-between;
-}
-  
-ul.social {
-  margin: 0;
+  flex-direction: column;
+  justify-content: center;
 }
 
+nav ul.mobile-menu {
+  overflow: hidden;
+  max-height: 0;
+  transition: all 0.3s ease;
+}
 
+ul.menu {
+  display: none;
+}
+nav div.header {
+  display: flex;
+}
+
+#menu-toggle {
+  display: none;
+}
+
+#menu-toggle:checked + #menu {
+  max-height: 200px;
+}
+
+p.skills-box {
+  text-align: center;
+}
+
+img.skills-image {
+  width: 70%;
+  height: auto;
+}
+ul li a {
+  margin: 5px 0;
+  border-right: solid 1px grey;
+}
+
+ul li:last-child a {
+  border: none;
+}
+
+.contact-icons {
+  text-align: right;
+}
+
+.contact-icons a {
+  text-decoration: none;
+}
+
+.contact-icon {
+  height: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-icon-wrapper {
+    display: none;
+  }
+
+  nav ul.mobile-menu {
+    display: none;
+  }
+
+  ul.menu {
+    display: flex;
+    flex: auto;
+    justify-content: flex-end;
+  }
+
+  ul.social {
+    margin: 0;
+  }
 } /* end media 768 */
 
