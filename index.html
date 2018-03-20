@@ -9,19 +9,33 @@
   </head>
 
   <body>
-    <div class="wrapper">
-      <nav>
-        <ul>
+    <nav>
+      <div class="header">
+        <ul class="social">
+          <img src="/assets/img/logo.png" class="logo-icon">
+        </ul>
+        <label for="menu-toggle" class="menu-icon-wrapper">
+          <img src="/assets/img/menu.png" class="menu-icon">
+        </label>
+        <ul class="menu">
           <li><a href="#about">About</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-        <ul class="social">
-          <li><a href="" class="fb">Facebook</a></li>
-          <li><a href="" class="tw">Twitter</a></li>
-        </ul>
-      </nav>
+      </div>
+
+      <input type="checkbox" id="menu-toggle"/>
+      <ul class="mobile-menu" id="menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  
+    <div class="wrapper">
+      
   
       <section id="blocks">
 
@@ -43,7 +57,9 @@
         <!-- Skills -->
         <article id="skills">
           <h2>Skills</h2>
-          <p>Etiam aliquam sem ac velit feugiat elementum. Nunc eu elit velit, nec vestibulum nibh. Curabitur ultrices, diam non ullamcorper blandit, nunc lacus ornare nisi, egestas rutrum magna est id nunc. Pellentesque imperdiet malesuada quam, et rhoncus eros auctor eu. Nullam vehicula metus ac lacus rutrum nec fermentum urna congue. Pellentesque imperdiet malesuada quam, et rhoncus eros auctor eu. Nullam vehicula metus ac lacus rutrum nec fermentum urna congue.</p>
+          <p class="skills-box">
+            <img class="skills-image" src="/assets/img/skills.jpg" />
+          </p>
         </article>
         
         <!-- Portfolio -->
@@ -56,12 +72,30 @@
         <article id="contact">
           <h2>Contact Me</h2>
           <p>Etiam aliquam sem ac velit feugiat elementum. Nunc eu elit velit, nec vestibulum nibh. Curabitur ultrices, diam non ullamcorper blandit, nunc lacus ornare nisi, egestas rutrum magna est id nunc. Pellentesque imperdiet malesuada quam, et rhoncus eros auctor eu. Nullam vehicula metus ac lacus rutrum nec fermentum urna congue.</p>
+          <div class="contact-icons">
+            <a href="#">
+              <img class="contact-icon" src="/assets/img/linkedin.png" />
+            </a>
+            <a href="https://github.com/timmoon7" target="_blank">
+              <img class="contact-icon" src="/assets/img/github.png" />
+            </a>
+            <a href="mailto:tim.moon7@gmail.com">
+              <img class="contact-icon" src="/assets/img/email.png" />
+            </a>
+            
+          </div>
         </article>
 
       </section>
 
       <footer id="footer">
-        <div class="footer_wrapper">This is a footer</div>
+        <ul class="footer-menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </footer>
     
       <!-- end of wrapper -->
