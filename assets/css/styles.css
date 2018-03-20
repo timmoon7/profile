@@ -1,5 +1,5 @@
 * {
-  font-family: verdana;
+  font-family: Roboto;
   margin: 0;
   padding: 0;
 }
@@ -81,16 +81,14 @@ a.fb {
   width: 35px;
   height: 35px;
 }
-.social a {
+.logo a {
   text-indent: -10000px;
   margin: 0 auto;
 }
 
-.social {
+.logo {
   max-width: 80px;
 }
-
-/* grid vs flex base styles */
 
 #blocks {
   margin: 20px;
@@ -107,7 +105,7 @@ article {
 article h2 {
   font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-size: 20px;
+  font-size: 24px;
   margin: 10px;
 }
 
@@ -120,8 +118,7 @@ article h1 {
 }
 
 /* flex styles */
-
-nav ul.social li {
+nav ul.logo li {
   flex: 1 1 0;
 }
 
@@ -168,6 +165,17 @@ img.skills-image {
   width: 70%;
   height: auto;
 }
+
+p.intro-box {
+  margin-top: 10px;
+  text-align: center;
+}
+
+img.intro-image {
+  width: 70%;
+  height: auto;
+}
+
 ul li a {
   margin: 5px 0;
   border-right: solid 1px grey;
@@ -189,6 +197,7 @@ ul li:last-child a {
   height: 35px;
 }
 
+/* Media Query */
 @media screen and (min-width: 768px) {
   .menu-icon-wrapper {
     display: none;
