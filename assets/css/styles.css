@@ -218,3 +218,51 @@ ul li:last-child a {
   }
 } /* end media 768 */
 
+
+/* Contact form  */
+form {
+  margin: 0 auto;
+  padding: 16px;
+  text-align: center;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 3px;
+  font-family: 'Roboto Condensed',sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #4b4b4b;
+  width: 80vw;
+  max-width: 600px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  background: #D1CECA;
+  border-radius: 4px;
+}
+
+input {
+  line-height: normal;
+}
+
+button {
+  background: #2C3B48;
+  width: 80vw;
+  max-width: 600px;
+  font-family: Roboto,sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 2px;
+  color: #EBE8E0;
+  letter-spacing: 2px;
+  padding: 5px;
+  border-radius: 4px;
+  border: none;
+  transition: .2s;
+  cursor: pointer;
+}
+
+/* end of Contact form  */
