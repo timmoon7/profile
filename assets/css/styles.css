@@ -16,7 +16,6 @@ body {
 }
 
 /* menu base styles */
-
 nav {
   background: #2C3B48;
 }
@@ -54,7 +53,6 @@ ul.footer-menu {
   font-size: 14px;
 }
 /* social menu base styles */
-
 a.tw {
   background: url(/assets/img/tw.png) no-repeat center;
   background-size: 80%; 
