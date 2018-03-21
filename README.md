@@ -5,7 +5,6 @@
  - [Pinterest board](https://www.pinterest.com.au/timmoon7/profile/)
  - [Figma design process](https://www.figma.com/file/GYrWtTlwfKlj7BBjGMvcdXbh/MyProfile)
 
----
 ## STYLE DEVELOPMENT AND GUIDE
 ### Layout
 The layout is based on the cover design of D3cubed. The site layout is minimalist and spacious. Sections are horizontal and cover 100% of the page width. Mainly it is implemented with a Flexbox and media query. It has a header for logo and menu, the menu has mobile and desktop views. The mobile screen shows menu icon and vertical menus based on with menu toggle funtion. And then it has a wrapper, section, 5 articles and footer.
@@ -66,3 +65,6 @@ On screens wider than 768px this makes the big header overwhelming so it is conv
 Sections are set to view height and are delineated by alternating background colour. Top paddings are set to avoid overlap with fixed headers. Vertical alignment is always centered in the flexbox.
 
 On small screens the section content has alternating justification (right then left). On larger screens all content reaches max width and is centered.  
+
+# Plan and Desgin
+![Design from Figma](https://https://github.com/timmoon7/profile/tree/master/assets/img/figma.png "Desgin from Figma")
