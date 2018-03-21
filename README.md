@@ -40,9 +40,7 @@ Images are kept to a minimum and those that are present are mostly logo and icon
 ### Logo
 Made a simple logo which can be a representative of me. The 0 1 shell shape means a programmer and TM stands for my full name Tim Moon. To turn it into a logo I created it in Figma and changed the 0 1 colors based on the background color of heading. Then I gave it my initial on the right top corner.
 
-Final logo:
 ![My logo with bakground color](https://github.com/timmoon7/profile/blob/master/assets/img/logo_bg.png?raw=true)
-![My logo](https://github.com/timmoon7/profile/blob/master/assets/img/logo.png?raw=true)
 
 In keeping with the minimalist theme and to make the clean layout, the logo is only used once,in the header (left corner).
 
