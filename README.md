@@ -23,7 +23,7 @@ The colour scheme is from a page of 'realtor-website-launch-kiley-mondloch' with
  - Text 'print' dark blue, black and cream: #000, #2C3B48 and #EFEEEC
  - a:hover light navy: #616C75
 
-![Site colour theme](https://github.com/timmoon7/profile/tree/master/assets/img/colors.png "Site colour theme")
+![Site colour theme](https://github.com/timmoon7/profile/tree/master/assets/img/colors.png?raw=true "Site colour theme")
 
 ### Fonts
  - Google Fonts: Exo 2, Roboto and Roboto Condensed
@@ -32,7 +32,7 @@ The colour scheme is from a page of 'realtor-website-launch-kiley-mondloch' with
  - Input, textarea: Roboto Condensed, sans-serif 16px;
  - General text: Roboto regular
 
-![Exo 2, Roboto and Roboto Condensed fonts](https://https://github.com/timmoon7/profile/tree/master/assets/img/colors.png "Exo 2, Roboto and Roboto Condensed fonts")
+![Exo 2, Roboto and Roboto Condensed fonts](https://https://github.com/timmoon7/profile/tree/master/assets/img/fonts.png?raw=true "Exo 2, Roboto and Roboto Condensed fonts")
  
 ### Images
 Images are kept to a minimum and those that are present are mostly logo and icons. IN the absense of images, the spacious page layout and alternating background colours serve to break up the text.
@@ -44,7 +44,7 @@ Original sketch:
 
 Final logo:
 
-![My logo](https://https://github.com/timmoon7/profile/tree/master/assets/img/colors.png "My logo")
+![My logo](https://https://github.com/timmoon7/profile/tree/master/assets/img/colors.png?raw=true "My logo")
 
 In keeping with the minimalist theme and to avoid "cartoonifying" the clean layout, the logo is only used once,in the header (left corner).
 
@@ -56,15 +56,15 @@ show you vertial menus, it will be disappeared when clicked again like a toogle 
 
 On small screens On scrolling down the page, the main header is covered by the body and a smaller right justified header appears. This is not strictly necessary as people aren't likely to forget what page they're on. It also means logo and memu icon is always visible.
 
-![site on a narrow screen - mobile](https://github.com/timmoon7/profile/tree/master/assets/img/mobile.png "site on a narrow screen - mobile")
+![site on a narrow screen - mobile](https://github.com/timmoon7/profile/tree/master/assets/img/mobile.png?raw=true "site on a narrow screen - mobile")
 
 On screens wider than 768px this makes the big header overwhelming so it is converted to a smaller header with a nav bar. The bottom vertical menu bar is not shown. When clicking the menu icon, the vertical full menus will be appeared and disappeared when clicking again like a toogle key. 
 
-![site on a wide screen - desktop](https://github.com/timmoon7/profile/tree/master/assets/img/mobile.png "site on a wide screen - desktop")
+![site on a wide screen - desktop](https://github.com/timmoon7/profile/tree/master/assets/img/mobile.png?raw=true "site on a wide screen - desktop")
 
 Sections are set to view height and are delineated by alternating background colour. Top paddings are set to avoid overlap with fixed headers. Vertical alignment is always centered in the flexbox.
 
 On small screens the section content has alternating justification (right then left). On larger screens all content reaches max width and is centered.  
 
 # Plan and Desgin
-![Design from Figma](https://https://github.com/timmoon7/profile/tree/master/assets/img/figma.png "Desgin from Figma")
+![Design from Figma](https://https://github.com/timmoon7/profile/tree/master/assets/img/figma.png?raw=true "Desgin from Figma")
