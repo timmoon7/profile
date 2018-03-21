@@ -8,31 +8,32 @@
 ---
 ## STYLE DEVELOPMENT AND GUIDE
 ### Layout
-The layout is based on the cover design of D3cubed. The site layout is minimalist and spacious. Sections are horizontal and cover 100% of the page width. There are no borders, but instead sections are demarcated by a change in the background colour.
+The layout is based on the cover design of D3cubed. The site layout is minimalist and spacious. Sections are horizontal and cover 100% of the page width. Mainly it is implemented with a Flexbox and media query. It has a header for logo and menu, the menu has mobile and desktop views. The mobile screen shows menu icon and vertical menus based on with menu toggle funtion. And then it has a wrapper, section, 5 articles and footer.
 
 ![D3cubed](http://demos.q-themes.net/dcubed/v1.1/#home "D3cubed, web design company")
 
 ### Colours
-The colour scheme is from a page of 'The Tragical Death of an Apple Pye', printed in the 1800s and pictured on the [blog of Angela Voulangas](https://www.pinterest.com.au/pin/791648440723495868/).
+The colour scheme is from a page of 'realtor-website-launch-kiley-mondloch' with dark blue, cream and brown and pictured on the [realtor-website-launch-kiley-mondloch](https://www.pinterest.com.au/pin/791648440723495868/).
 
-![A page from The Tragical Death of an Apple Pye](http://1.bp.blogspot.com/-5hzM91_tqfA/T2ZCOZUSDNI/AAAAAAAAFNI/-FtBJ0h9VQ0/s400/apple+pie.jpg "The Tragical Death of an Apple Pye")
+![A page from The Realtor Website Launch :: Kiley Mondloch] (http://saffronavenue.com/blog/logo-branding/realtor-website-launch-kiley-mondloch/ "Realtor Website Launch :: Kiley Mondloch")
 
- - Background 'paper' yellow-y: #F2E4BD
- - Background alt light teal: #BACDA8
- - Text 'print' dark grey: #4B4B4B (may be darkened slightly for contrast against some colors)
- - Highlight red: #750417
- - Highlight teal: #528F7D
- - Highlight yellow: #ECBE69
+ - Background 'body' light-grey: #EBE8E0
+ - Navigation bars dark blue: #2C3B48
+ - articles cream: #EFEEEC
+ - Footer brown: #66503D
+ - Text 'print' dark blue, black and cream: #000, #2C3B48 and #EFEEEC
+ - a:hover light navy: #616C75
 
-![Site colour theme](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/colours.png?raw=true "Site colour theme")
+![Site colour theme](https://github.com/timmoon7/profile/tree/master/assets/img/colors.png "Site colour theme")
 
 ### Fonts
-With the bookish theme, it was tempting to go heavy on the serif fonts, however these conflicted with the very clean layout. Instead I paired two full sans serif fonts. The wide loops in these fonts combined with the use of capitals, semi-bold and generous spacing meant that these two fonts retained the bookish feel while keeping clean and simple. Penguin Classics also use sans serif fonts.
+ - Google Fonts: Exo 2, Roboto and Roboto Condensed
+ - Article headings h1: Exo 2, sans-serif 45px;
+ - Article headings h2: Roboto, sans-serif 24px;
+ - Input, textarea: Roboto Condensed, sans-serif 16px;
+ - General text: Roboto regular
 
- - Headings: Montserrat semi-bold (weight 600), usually capital
- - General text: Raleway regular
-
-![Montserrat and Raleway fonts](https://github.com/Simbidion/portfolio-website/blob/master/assets/img/fonts.png?raw=true "Montserrat and Raleway fonts")
+![Exo 2, Roboto and Roboto Condensed fonts](https://https://github.com/timmoon7/profile/tree/master/assets/img/colors.png "Exo 2, Roboto and Roboto Condensed fonts")
  
 ### Images
 Like a book or a Penguin Classic cover, images are kept to a minimum and those that are present are mostly logos. Monochrome logos that match the dark grey text colour are preferred. IN the absense of images, the spacious page layout and alternating background colours serve to break up the text.
